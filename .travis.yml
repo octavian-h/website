@@ -1,18 +1,19 @@
-addons:
-  apt:
-    packages:
-    - python-pygments
-env:
-  global:
-  - ENCRYPTION_LABEL: 7bbb79b7c044
-  - DEPLOY_KEY: ".travis/id_rsa"
-  - COMMIT_AUTHOR_EMAIL: travis@hasna.ro
-before_script:
-- curl --silent -L https://github.com/spf13/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-64bit.tar.gz
-  | tar zxf -
+language: go
+go:
+- master
+install:
+- go get github.com/spf13/hugo
 script:
-- GIT_COMMIT_SHA=`git rev-parse --verify HEAD` GIT_COMMIT_SHA_SHORT=`git rev-parse
-  --short HEAD` ./hugo
-after_success:
-- echo "www.hasna.ro" >> public/CNAME
-- "./.travis/deploy.sh"
+- hugo
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: "$GITHUB_TOKEN"
+  local_dir: public
+  repo: octavian-h/personal-site
+  target_branch: gh-pages
+  fqdn: www.hasna.ro
+  on:
+    branch: master
+dd:
+  secure: TSYijr9Oazz5XPGEX4evGf7TyBU1qEzlU8hM83tmkaO4CABvK3ctD0JTljqK+tHPWZANHJm6DS0oibAMlad/yu1imOC0bGbvPH+sBgmqts2iLvNgwwx18fnmgeiKB/J8GKxYMQIWArFf0JsgcSY/CzxgW7jL/OFN4sxFka1RbU1LfkbNnuDiATfIJvTwjV2C9gWm8jf82h2UNm+BHAKbh99KqKbXIGhQ84YIgFZGd1EPz/FFF5HNzEvX6W196kaK9ZHPdFMQr0+Z6vIakpXykqmAeN5buPQ3J1I1KeTxhXe4jniKDTTzuA89AuhFN8HObV/zl2DiFkpNilZE5ynH+sFpkb8RImYJwmUvgO1HaY8+AwWNQgCribggSYiEihf5DgMmEbBMVMNYVmlzukSaH1A734pFPfu8xoQJ9dNyeghOzHlKZy4SD+UK+BHeDuOq70FSC3IeDUhWb2ttesAyLzb499XD4piViwIQK/HJ+FVSSn8zOP+P2HICw7UVFEGaTlGtrbIeeH31+pAfKrziPCI5rx/64pHKvQbobV7F7BweZ9PGynv9BCVJuW+RkO9TTLWeJH00o2ZeJkasWXpExcJLDMvtDEvKxfxxWjuumTolyB0cshSgwHnfv/0+X51ETCPBKe4eHeGFfUSBGRnxI4HFHDQQJigcwz2KyiW6fTg=
