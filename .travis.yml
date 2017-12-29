@@ -1,0 +1,18 @@
+addons:
+  apt:
+    packages:
+    - python-pygments
+env:
+  global:
+  - ENCRYPTION_LABEL: 7bbb79b7c044
+  - DEPLOY_KEY: ".travis/id_rsa"
+  - COMMIT_AUTHOR_EMAIL: travis@hasna.ro
+before_script:
+- curl --silent -L https://github.com/spf13/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-64bit.tar.gz
+  | tar zxf -
+script:
+- GIT_COMMIT_SHA=`git rev-parse --verify HEAD` GIT_COMMIT_SHA_SHORT=`git rev-parse
+  --short HEAD` ./hugo
+after_success:
+- echo "www.hasna.ro" >> public/CNAME
+- "./.travis/deploy.sh"
