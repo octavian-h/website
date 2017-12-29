@@ -1,19 +1,29 @@
 language: go
+
 go:
-- master
+  - master
+  
+addons:
+  apt:
+    packages:
+      - python-pygments
+
 install:
-- go get github.com/spf13/hugo
+  - curl --silent -L https://github.com/gohugoio/hugo/releases/download/v0.31.1/hugo_0.31.1_Linux-64bit.tar.gz | tar zxf -
+
 script:
-- hugo
+- ./hugo
+
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: "$GITHUB_TOKEN"
+  github_token: $GITHUB_TOKEN
   local_dir: public
   repo: octavian-h/personal-site
   target_branch: gh-pages
   fqdn: www.hasna.ro
   on:
     branch: master
-dd:
-  secure: TSYijr9Oazz5XPGEX4evGf7TyBU1qEzlU8hM83tmkaO4CABvK3ctD0JTljqK+tHPWZANHJm6DS0oibAMlad/yu1imOC0bGbvPH+sBgmqts2iLvNgwwx18fnmgeiKB/J8GKxYMQIWArFf0JsgcSY/CzxgW7jL/OFN4sxFka1RbU1LfkbNnuDiATfIJvTwjV2C9gWm8jf82h2UNm+BHAKbh99KqKbXIGhQ84YIgFZGd1EPz/FFF5HNzEvX6W196kaK9ZHPdFMQr0+Z6vIakpXykqmAeN5buPQ3J1I1KeTxhXe4jniKDTTzuA89AuhFN8HObV/zl2DiFkpNilZE5ynH+sFpkb8RImYJwmUvgO1HaY8+AwWNQgCribggSYiEihf5DgMmEbBMVMNYVmlzukSaH1A734pFPfu8xoQJ9dNyeghOzHlKZy4SD+UK+BHeDuOq70FSC3IeDUhWb2ttesAyLzb499XD4piViwIQK/HJ+FVSSn8zOP+P2HICw7UVFEGaTlGtrbIeeH31+pAfKrziPCI5rx/64pHKvQbobV7F7BweZ9PGynv9BCVJuW+RkO9TTLWeJH00o2ZeJkasWXpExcJLDMvtDEvKxfxxWjuumTolyB0cshSgwHnfv/0+X51ETCPBKe4eHeGFfUSBGRnxI4HFHDQQJigcwz2KyiW6fTg=
+
+env:
+  secure: CwwhcX3EyFaNPpClSvq3TAqPRaRpoQEoRnTxFGovKbh8tEh8FYEI+Nl46NnbqoOYnsBliwTRS1sjx350Zb2xtz+MsP5Due+BqIi8/Kbn8wfVlnBhBP5jRgRaRR3wloN50JGaavfsW+e8bi4aW+e0zwnpjSdTHC6MnncEs7YyZsMnrnZY5wIr0LjZc8ypTIlxTmsbxawbIGwSWmXvnJ5zOCCfzJRdiXAzlqQnxE9ivOy/RGK9sM+LSG17g3HZNjk8fnkKDA+ZGaMSSExHAf27eJP2tocOMJ7/KSmMSGqFTUwNh2OxL3Jwx85Q57MYyGTTlH613AqxgX1VDeRCVolZ6KaK7Fj8cvYFLMN+pcnjTAv5Ofqnyktao8Q5+X/sMW2D50TZN5RYakPGmvFuCt5AHvoF7ki2LFgPrhPz8xwN8rq9lw97l5M3sbFurpEF9toaCNwHCC2UU6JgsIfRFIsSFAcvBe8P5Fkyi/P0NUAKcnGcsj6qc5QcB8DBLqWaoVIifFp7Ira+ZT5lUdFOpjCprureVbb0ORcoB0gLssPWbVPScxkPvPnUVmkq5cJ1T8iUJCx78ppJ5nXh9iWaioTbka2rKdmABV7yUmH9uMkOYi/9OiOpftXptsRvHMFJ61cZwnJ3VddizY0E6NTlI4CKBSKGnUvTgx8WooGZvi3v2EE=
