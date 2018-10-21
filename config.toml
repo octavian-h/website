@@ -13,7 +13,7 @@ theme = "hugo-sustain"
 [params]
   avatar = "profile.png"
   author = "Octavian Hasna"
-  description = "Website de prezentare a proiectelor personale si un blog cu de toate."
+  description = "Presentation website with personal projects and a blog with Romanian posts."
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
