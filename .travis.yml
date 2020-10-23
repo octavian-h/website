@@ -1,5 +1,5 @@
-language: c
-  
+language: minimal
+
 addons:
   apt:
     packages:
@@ -9,7 +9,7 @@ install:
   - curl --silent -L https://github.com/gohugoio/hugo/releases/download/v0.76.5/hugo_0.76.5_Linux-64bit.tar.gz | tar zxf -
 
 script:
-- ./hugo --cleanDestinationDir
+  - ./hugo --cleanDestinationDir
 
 deploy:
   provider: pages
@@ -21,6 +21,3 @@ deploy:
   fqdn: www.hasna.ro
   on:
     branch: master
-
-env:
-  secure: CwwhcX3EyFaNPpClSvq3TAqPRaRpoQEoRnTxFGovKbh8tEh8FYEI+Nl46NnbqoOYnsBliwTRS1sjx350Zb2xtz+MsP5Due+BqIi8/Kbn8wfVlnBhBP5jRgRaRR3wloN50JGaavfsW+e8bi4aW+e0zwnpjSdTHC6MnncEs7YyZsMnrnZY5wIr0LjZc8ypTIlxTmsbxawbIGwSWmXvnJ5zOCCfzJRdiXAzlqQnxE9ivOy/RGK9sM+LSG17g3HZNjk8fnkKDA+ZGaMSSExHAf27eJP2tocOMJ7/KSmMSGqFTUwNh2OxL3Jwx85Q57MYyGTTlH613AqxgX1VDeRCVolZ6KaK7Fj8cvYFLMN+pcnjTAv5Ofqnyktao8Q5+X/sMW2D50TZN5RYakPGmvFuCt5AHvoF7ki2LFgPrhPz8xwN8rq9lw97l5M3sbFurpEF9toaCNwHCC2UU6JgsIfRFIsSFAcvBe8P5Fkyi/P0NUAKcnGcsj6qc5QcB8DBLqWaoVIifFp7Ira+ZT5lUdFOpjCprureVbb0ORcoB0gLssPWbVPScxkPvPnUVmkq5cJ1T8iUJCx78ppJ5nXh9iWaioTbka2rKdmABV7yUmH9uMkOYi/9OiOpftXptsRvHMFJ61cZwnJ3VddizY0E6NTlI4CKBSKGnUvTgx8WooGZvi3v2EE=
