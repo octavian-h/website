@@ -1,0 +1,97 @@
+baseURL: https://www.hasna.ro/
+title: Octavian Hasna
+paginate: 5
+theme: hugo-PaperMod
+
+enableRobotsTXT: true
+enableGitInfo: true
+googleAnalytics: UA-26703491-1
+disqusShortname: octavian1001
+
+taxonomies:
+  category: categories
+  tag: tags
+
+defaultContentLanguage: en
+languages:
+  en:
+    contentDir: content/en
+    weight: 1
+    params:
+      label:
+        text: Home
+    menu:
+      main:
+        - name: DexOffline
+          url: /dexoffline/
+          weight: 1
+        - name: Projects
+          url: /projects/
+          weight: 5
+        - name: Privacy Policy
+          url: /privacy-policy/
+          weight: 10
+  ro:
+    contentDir: content/ro
+    weight: 2
+    params:
+      label:
+        text: Acasa
+    menu:
+      main:
+        - name: Blog
+          url: /posts/
+          weight: 1
+        - name: en
+          url: ../en/
+          weight: 2
+
+minify:
+  minifyOutput: true
+
+params:
+  env: production
+  author: Octavian Hasna
+  description: Presentation website with personal projects and a blog with Romanian posts.
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowToc: true
+  comments: false
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableSpecial1stPost: true
+
+  assets:
+    favicon: /favicon.ico
+
+  profileMode:
+    enabled: true
+    imageUrl: /apple-touch-icon.png
+    imageTitle: site logo
+
+  socialIcons:
+    - name: github
+      url: https://github.com/octavian-h
+    - name: linkedin
+      url: https://ro.linkedin.com/in/octavian-lucian-hasna-9aaa85105
+    - name: stackoverflow
+      url: https://stackoverflow.com/users/2607910/octavian1001
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    anonymizeIP: false
+    disable: false
+    respectDoNotTrack: true
+    useSessionStorage: false
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: false
+    privacyEnhanced: true
