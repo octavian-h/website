@@ -15,6 +15,7 @@ taxonomies:
 defaultContentLanguage: en
 languages:
   en:
+    languageName: English
     contentDir: content/en
     weight: 1
     params:
@@ -32,6 +33,7 @@ languages:
           url: /privacy-policy/
           weight: 10
   ro:
+    languageName: Română
     contentDir: content/ro
     weight: 2
     params:

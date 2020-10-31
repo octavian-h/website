@@ -13,6 +13,7 @@ collect, use and share personal information of consumer users of the
 * [DexOffline for Windows](https://www.microsoft.com/en-us/p/dexoffline/9n5xfpst5974)
 * [DexOffline Plus for Windows](https://www.microsoft.com/en-us/p/dexoffline-plus/9nfvk1wqt472)
 * [DexOffline for Android](https://play.google.com/store/apps/details?id=ro.hasna.dexoffline)
+* [DexOffline Plus for Android](https://play.google.com/store/apps/details?id=ro.hasna.dexoffline.plus)
  
 ## What we collect
 
@@ -26,21 +27,21 @@ contact us by email.
 ### Information Automatically Collected
 
 We automatically log information about you and your device in the following ways:
-* the **site** uses default settings from Google Analytics, 
-see theirs [privacy policy](https://policies.google.com/privacy),
-and theirs [cookie usage](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage); 
-* **DexOffline for Windows** and **DexOffline Plus for Windows** collects the viewed
-pages, and the default information collected by Visual Studio App Center, 
-see theirs [privacy policy](https://privacy.microsoft.com);
-* **DexOffline for Windows** shows ads from AdDuplex, 
-see theirs [privacy policy](https://www.adduplex.com/privacy-policy);
-* **DexOffline for Android** collects the viewed pages, and the default information 
-collected by Google Analytics for Firebase,
-see theirs [use policy](https://firebase.google.com/policies/analytics);
-* **DexOffline for Android** collects the crashes using Crashlytics,
-see theirs [data processing and security terms](https://firebase.google.com/terms/crashlytics-app-distribution-data-processing-terms);
-* **DexOffline for Android** shows ads from Google AdMob,
-see theirs [policies and restrictions](https://support.google.com/admob/answer/6128543).
+
+| Site | |
+| :---: | :--- |
+| ✔ | view pages collected by Google Analytics: [privacy policy](https://policies.google.com/privacy), [cookie usage](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage), [opt-out tool](https://tools.google.com/dlpage/gaoptout) |
+
+| DexOffline for Windows | DexOffline Plus for Windows | |
+| :---: | :---: | :--- |
+| ✔ | ✔ | view tabs collected by Visual Studio App Center: [privacy policy](https://privacy.microsoft.com) |
+| ✔ | - | ads from AdDuplex: [privacy policy](https://www.adduplex.com/privacy-policy) |
+
+| DexOffline for Android | DexOffline Plus for Android | |
+| :---: | :---: | :--- |
+| ✔ | ✔ | view tabs collected by Google Analytics for Firebase: [use policy](https://firebase.google.com/policies/analytics) |
+| ✔ | ✔ | crashes collected by Crashlytics: [data processing and security terms](https://firebase.google.com/terms/crashlytics-app-distribution-data-processing-terms) |
+| ✔ | - | ads from Google AdMob: [policies and restrictions](https://support.google.com/admob/answer/6128543), ad personalization can be disabled from app |
 
 ## Use of personal information
 
