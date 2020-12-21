@@ -17,7 +17,7 @@ Romanian language, you can read the feed with words of the day, generate valid w
 | Search words online on dexonline.ro | ✔ | ✔ | ✔ | ✔ |
 | Check if a word is in the official Scrabble word list for Romanian language | ✔ | ✔ | ✔ | ✔ |
 | Store search words history | ✔ | ✔ | ✔ | ✔ |
-| Generate words for Scrabble | - | ✔ | ✔ | ✔ |
+| Generate words for Scrabble | - | ✔ | - | ✔ |
 | Read the feed with word of day | ✔ | ✔ | ✔ | ✔ |
 | Play Pheasant game | ✔ | ✔ | ✔ | ✔ |
 | Play Hangman game | ✔ | ✔ | ✔ | ✔ |
