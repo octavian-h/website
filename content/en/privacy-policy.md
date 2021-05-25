@@ -10,12 +10,12 @@ Last Updated: {{<lastModifiedDate>}}
 This privacy policy describes how Octavian Hasna (**"I"**) and 3rd parties services (both **"we"**)
 collect, use and share personal information of consumer users of the 
 [website](https://www.hasna.ro) (**"site"**) and of the following apps (**"products"**):
-* [DexOffline for Windows](https://www.microsoft.com/en-us/p/dexoffline/9n5xfpst5974)
-* [DexOffline Plus for Windows](https://www.microsoft.com/en-us/p/dexoffline-plus/9nfvk1wqt472)
+* [DexOffline for Windows](https://www.microsoft.com/store/apps/9n5xfpst5974)
+* [DexOffline Plus for Windows](https://www.microsoft.com/store/apps/9nfvk1wqt472)
 * [DexOffline for Android](https://play.google.com/store/apps/details?id=ro.hasna.dexoffline)
 * [DexOffline Plus for Android](https://play.google.com/store/apps/details?id=ro.hasna.dexoffline.plus)
-* [DexOffline for iOS](https://apps.apple.com/us/app/dexoffline/id1567763970)
-* [DexOffline Plus for iOS](https://apps.apple.com/us/app/dexoffline-plus/id1567769712)
+* [DexOffline for iOS](https://apps.apple.com/app/id1567763970#?platform=iphone)
+* [DexOffline Plus for iOS](https://apps.apple.com/app/id1567769712#?platform=iphone)
 
 ## What we collect
 
