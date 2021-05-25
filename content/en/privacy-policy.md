@@ -14,8 +14,8 @@ collect, use and share personal information of consumer users of the
 * [DexOffline Plus for Windows](https://www.microsoft.com/en-us/p/dexoffline-plus/9nfvk1wqt472)
 * [DexOffline for Android](https://play.google.com/store/apps/details?id=ro.hasna.dexoffline)
 * [DexOffline Plus for Android](https://play.google.com/store/apps/details?id=ro.hasna.dexoffline.plus)
-* DexOffline for iOS (soon)
-* DexOffline Plus for iOS (soon)
+* [DexOffline for iOS](https://apps.apple.com/us/app/dexoffline/id1567763970)
+* [DexOffline Plus for iOS](https://apps.apple.com/us/app/dexoffline-plus/id1567769712)
 
 ## What we collect
 

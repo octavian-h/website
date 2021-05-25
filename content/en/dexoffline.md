@@ -25,7 +25,7 @@ can read the feed with words of the day, generate valid words for the Scrabble g
 | No ads | - |  ✔ |
 | Windows / Windows Mobile | {{< figure src="https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png" alt="Get DexOffline on Windows Store" link="https://www.microsoft.com/store/apps/9n5xfpst5974?cid=storebadge&ocid=badge" >}} | {{< figure src="https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png" alt="Get DexOffline Plus on Windows Store" link="https://www.microsoft.com/store/apps/9nfvk1wqt472?cid=storebadge&ocid=badge" >}} |
 | Android | {{< figure src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get DexOffline on Google Play" link="https://play.google.com/store/apps/details?id=ro.hasna.dexoffline&utm_source=site" >}} | {{< figure src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get DexOffline on Google Play" link="https://play.google.com/store/apps/details?id=ro.hasna.dexoffline.plus&utm_source=site" >}} |
-| iOS | soon | soon |
+| iOS | {{< figure src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Get DexOffline on App Store" link="https://apps.apple.com/us/app/dexoffline/id1567763970" >}} | {{< figure src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Get DexOffline Plus on App Store" link="https://apps.apple.com/us/app/dexoffline-plus/id1567769712" >}} |
 
 ## Support
 
